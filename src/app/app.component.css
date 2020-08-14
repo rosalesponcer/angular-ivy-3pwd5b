@@ -1,0 +1,21 @@
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+}
+
+.container > .column-left{
+  width: 30%;
+}
+.container>.column-right{
+  width: 60%;
+}
+.item{
+  color: white;
+  background: gray;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}

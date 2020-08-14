@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="column-left">
+		<div class="items" *ngFor="let d of data">
+			<div class="item" (click)="select(d)">
+				{{ d.name }}
+			</div>
+		</div>
+	</div>
+
+	<div class="column-right">
+		<full-calendar [options]="calendarOptions">
+		</full-calendar>
+	</div>
+
+</div>
